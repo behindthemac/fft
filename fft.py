@@ -2,6 +2,14 @@ import numpy as np
 
 
 def fft(x):
+    """Get the discrete Fourier transform of a sequence.
+
+    Args:
+    x: A sequence of complex numbers
+
+    Returns:
+    The discrete Fourier transform of the sequence
+    """
     n = len(x)
     if n <= 1:
         return x
