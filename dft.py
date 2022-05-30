@@ -2,7 +2,7 @@ import numpy as np
 
 
 def dft(x):
-    """Get the discrete Fourier transform of a sequence.
+    """Gets the discrete Fourier transform of a sequence.
 
     Args:
     x: A sequence of complex numbers
