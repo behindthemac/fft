@@ -2,7 +2,7 @@ import numpy as np
 
 
 def idft(x):
-    """Get the inverse discrete Fourier transform of a sequence.
+    """Gets the inverse discrete Fourier transform of a sequence.
 
     Args:
     x: A sequence of complex numbers
